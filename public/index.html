@@ -2,22 +2,28 @@
 <html lang='en'>
 
 <head>
-    <title>Pagitoni News</title>
+    <title>Panettone News</title>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel='icon' type='image/x-icon' href='/public/favicon.ico' />
     <link rel="stylesheet" type="text/css" media="screen" href="public/style.css" />
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1"
+        crossorigin="anonymous">
 </head>
 
 <body>
     <div class="navbar"></div>
     <header class="header">
-        <h1 class="header__title">Notizie News</h1>
+        <nav class="header__nav">
+            <img class="header__logo" src="/public/panettone.png" alt="panettone news logo">
+            <h1 class="header__title">Panettone News</h1>
+        </nav>
         <form id="form">
             <input type="text" id="js-search-box" class="header__input" autocomplete="off" placeholder="Search a topic" required aria-label="Search Box">
-            <button id="js-submit-button" type="submit" class="form__submit-button" aria-label="submit"><i class="fas fa-search"></i></button>
+            <button id="js-submit-button" type="submit" class="form__submit-button" aria-label="submit">
+                <i class="fas fa-search"></i>
+            </button>
         </form>
     </header>
     <div class="loader" id="js-loader">
@@ -26,7 +32,7 @@
         <div class="rect3"></div>
         <div class="rect4"></div>
         <div class="rect5"></div>
-      </div>
+    </div>
 
     <section class="section__results" id="js-section-results">
 
